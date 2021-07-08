@@ -1,0 +1,14 @@
+@media  (max-width: 700px) {
+    section {
+        overflow: hidden;
+    }
+    .animation {
+        opacity: 0;
+        transition: 250ms ease-out;
+        transform: translate(300px,0);
+    }
+
+    main {
+        flex: auto;
+    }
+}

@@ -1,0 +1,49 @@
+.bg {
+    background-color: #eee;
+}
+
+.container {
+    max-width: 800px;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+header {
+    height: 50px;
+    border-bottom: 1px solid #999;
+    background-color: #fff;
+}
+
+section {
+  /*   background-color: red;  */
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+main {
+    height: calc(100vh - 100px);
+    overflow: auto;
+    flex: 1;
+}
+
+aside {
+    width: 300px;
+    border-left: 1px solid #ccc;
+  /*   background-color: yellow; */ 
+    background-color: #fff;
+    box-shadow: -15px 0px 15px 0px rgba(51, 51, 51, 0.5);
+    opacity: 1;
+    transition: 250ms ease-out;
+}
+
+footer {
+   
+    height: 50px;
+    border-top: 1px solid #999;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 800px; 
+}
